@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hellochat/components/appcolor.dart';
-import 'package:hellochat/services/chat_services/chat_service.dart';
+
+
+import '../components/app_color.dart';
+import '../services/chat_services/chat_service.dart';
 
 class BlockedUsersPage extends StatelessWidget {
   BlockedUsersPage({super.key});
@@ -90,7 +92,7 @@ class BlockedUsersPage extends StatelessWidget {
                       ),
                       title: Text(
                         user["Email"],
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
                           color: AppColors.textPrimary,

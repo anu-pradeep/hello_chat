@@ -1,10 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hellochat/components/appcolor.dart';
-import 'package:hellochat/firebase_helper/firebase_helper.dart';
-import 'package:hellochat/view/login_page.dart';
-import 'package:hellochat/view/settings_page.dart';
+
+import '../firebase_helper/firebase_helper.dart';
+import '../view/login_apge.dart';
+import '../view/settings+page.dart';
+import 'app_color.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});

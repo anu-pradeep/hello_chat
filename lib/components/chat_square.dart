@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart'; // For date formatting
 import 'package:provider/provider.dart';
 
+import '../services/chat_services/chat_service.dart';
+import '../theme/theme_provider.dart';
+
 class ChatSquare extends StatelessWidget {
   final String message;
   final bool isCurrentUser;

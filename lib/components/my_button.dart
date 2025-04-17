@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hellochat/components/appcolor.dart';
+
+import 'app_color.dart';
 
 class MyButton extends StatelessWidget {
   final String text;
